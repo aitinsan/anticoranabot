@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Coronavirus test</title>
+</head>
+
+<body>
+    <div class="form_virus">
+        <form method="post" action="test.php">
+            <div class="element">
+                <h2>Тест на прохождение вероятности заболевания вирусом Covid-19 (Коронавирус)</h2>
+            </div>
+            <div class="element">
+                <p><strong>Вопрос №1:</strong> Вопрос с одним вариантом ответа (Какие симптомы Вы выявили у себя?)</p>
+                <p><input type="radio" name="one_value" value="a"> 1</p>
+                <p><input type="radio" name="one_value" value="b"> 2</p>
+                <p><input type="radio" name="one_value" value="c"> 3</p>
+                <p><input type="radio" name="one_value" value="d"> 4</p>
+            </div>
+            <div class="element">
+                <p><strong>Вопрос №2:</strong> Вопрос с несколькими вариантами ответа</p>
+                <p><input type="checkbox" name="value_one" value="1"> 1</p>
+                <p><input type="checkbox" name="value_two" value="2"> 2</p>
+                <p><input type="checkbox" name="value_three" value="3"> 3</p>
+                <p><input type="checkbox" name="value_four" value="4"> 4</p>
+                <p><input type="checkbox" name="value_five" value="5"> 5</p>
+            </div>
+            <div class="element">
+                <p><input type="submit" value="Отправить ответы" /></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
